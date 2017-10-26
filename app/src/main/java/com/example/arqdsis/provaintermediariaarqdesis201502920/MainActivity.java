@@ -1,3 +1,6 @@
+/*Prova Arqdesis 26/10/2017
+Mônica Gomes RA:201502920
+ */
 package com.example.arqdsis.provaintermediariaarqdesis201502920;
 
 import android.content.Intent;
@@ -26,8 +29,10 @@ public class MainActivity extends AppCompatActivity {
         String message2 = editText2.getText().toString();
 
         for (int i = 0; i < message2.length(); i++) {
-
+            message2 += message;
         }
 
+        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
     }
 }
