@@ -22,7 +22,7 @@ public class DisplayCalc extends AppCompatActivity {
         textView.setTextSize(40);
         textView.setText(message2);
 
-        ViewGroup layout = (ViewGroup)   findViewById(R.id.activity_display_calc);
+        ViewGroup layout = (ViewGroup) findViewById(R.id.activity_display_calc);
         layout.addView(textView);
         /*Prova Arqdesis 26/10/2017
         Mônica Gomes RA:201502920
